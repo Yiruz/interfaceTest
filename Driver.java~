@@ -38,17 +38,17 @@ public class Driver{
 
     public static void main(String[]args){
 	
-	/*//UNCOMMENT THIS WHEN YOU DO AREA
-	  Area[] twos = new Area[5];
-	  for(int i = 0; i < twos.length; i++){
-	  twos[i]=makeRandomAreaShape();
-	  }
-	  System.out.println("Area tests:");
-	  for(Area a : twos){
-	  System.out.println(a);
-	  System.out.println(a.getArea());
-	  }
-	*/
+	//UNCOMMENT THIS WHEN YOU DO AREA
+	Area[] twos = new Area[5];
+	for(int i = 0; i < twos.length; i++){
+	    twos[i]=makeRandomAreaShape();
+	}
+	System.out.println("Area tests:");
+	for(Area a : twos){
+	    System.out.println(a);
+	    System.out.println(a.getArea());
+	}
+	
 
 	/*//UNCOMMENT THIS WHEN YOU DO VOLUME
 	  Volume[] threes = new Volume[6];
